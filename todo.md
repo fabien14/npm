@@ -1,0 +1,4 @@
+- Pas de persistance de données, si le serveur s'arrete, il n'y a plus de data => un fichier ou un db no sql pour resoudre le cas
+- Pas plusieurs worker de flask sinon la data stack peut etre corrompu => un lock peut resoudre le probleme
+- Pas de test unitaire sur les endpoints api
+- Pas de log

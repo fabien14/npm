@@ -1,0 +1,4 @@
+- Ajouter un endpoint pour faire le vrai calcul RPN 
+- Ajouter une db no sql
+- Ajouter une config
+- Ajouter une CI Github Action au moins pour les tests
