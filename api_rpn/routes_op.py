@@ -3,6 +3,7 @@ from flask_restx import Resource
 from rpn.operator import OperatorRPN
 from .model_in_out_endpoint import operand_model
 
+
 @api_rpn_namespace.route('/op')
 class Operands(Resource):
 

@@ -22,6 +22,11 @@ class Stacks:
         
         del self._stacks[stacks_id]
 
+    
+    @property
+    def stacks(self):
+        return self._stacks.keys()
+
 
 class StacksAlreadyExist(Exception):
     pass

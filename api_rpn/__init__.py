@@ -12,4 +12,4 @@ api_rpn_api = Api(api_rpn_blueprint,
 
 api_rpn_api.add_namespace(api_rpn_namespace)
 
-from api_rpn import routes
+from api_rpn import routes_op, routes_stack
