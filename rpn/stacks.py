@@ -1,5 +1,7 @@
 from rpn.pile import PileRPN
+from rpn.utils import singleton
 
+@singleton
 class Stacks:
     def __init__(self) -> None:
         self._stacks = {}
