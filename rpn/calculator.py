@@ -9,7 +9,7 @@ class CalculatorRPN:
         element2 = int(pile.get())
         element1 = int(pile.get())
         
-        pile.add(operator.value[1](element2, element1))
+        pile.add(operator.value(element2, element1))
 
         return pile
 
